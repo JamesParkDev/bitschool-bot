@@ -9,7 +9,6 @@ const token = config.token;
 const prefix = config.prefix;
 
 client.commands = new Discord.Collection();
-client.events = new Discord.Collection();
 
 fs.readdir("./cmds/", (err, files) => {
     if(err) console.error(err);
